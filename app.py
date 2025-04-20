@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load model and encoders
 model = joblib.load('mental_health_model.pkl')
 encoders = joblib.load('encoders.pkl')
 
@@ -103,7 +102,7 @@ if st.button("🔍 Predict Mental Health Risk"):
             """)
         else:
             st.success(f"""
-            ## ✅ Low Risk Detected  
+            ## Low Risk Detected  
             **Confidence:** {proba[0]:.2%}
 
             Great! Your responses indicate a low risk of mental health concerns.  

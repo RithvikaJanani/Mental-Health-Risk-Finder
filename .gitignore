@@ -1,0 +1,6 @@
+# Data files
+survey.csv
+cleaned.csv
+
+# Mental_Health_model and encoders
+*.pkl

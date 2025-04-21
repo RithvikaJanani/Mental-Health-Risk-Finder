@@ -1,6 +1,6 @@
 # Mental Health Risk Predictor
 
-A Streamlit web app that predicts the risk of mental health issues based on personal and workplace-related factors. The prediction is made using a trained machine learning model.
+A Streamlit web app that predicts the risk of mental health issues based on personal and workplace-related factors. The prediction is made by training a binary classification model.
 
 ## Features
 - Takes user inputs on age, gender, workplace conditions, mental health support, and more.
